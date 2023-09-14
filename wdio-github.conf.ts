@@ -1,7 +1,7 @@
-const basicConfig = require('./wdio.conf')
+import {config} from './wdio.conf'
 
 exports.config = {
-    ...basicConfig.config,
+    ...config,
     capabilities: [
         {
             maxInstances: 5,

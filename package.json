@@ -10,6 +10,7 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.ts"
+    "wdio": "wdio run ./wdio.conf.ts",
+    "wdio-github": "wdio run ./wdio-github.conf.ts"
   }
 }
